@@ -12,7 +12,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:hint="Cost of Service"
+        android:hint="@string/cost_of_service"
         android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,7 +22,7 @@
         android:layout_width="148dp"
         android:layout_height="23dp"
         android:layout_marginStart="8dp"
-        android:text="How was the service?"
+        android:text="@string/how_was_the_service"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
@@ -40,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:text="Amazing (20%)"
+            android:text="@string/amazing_20"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -49,7 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:text="Good (18%)"
+            android:text="@string/good_18"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/radioButton" />
 
@@ -58,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:text="Ok (15%)"
+            android:text="@string/ok_15"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
 
@@ -71,7 +71,7 @@
         android:layout_height="48dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:text="Round up tip?"
+        android:text="@string/round_up_tip"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -84,7 +84,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="#2196F3"
-        android:text="calculate"
+        android:text="@string/calculate"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -95,7 +95,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:text="Tip Amount"
+        android:text="@string/tip_amount"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
